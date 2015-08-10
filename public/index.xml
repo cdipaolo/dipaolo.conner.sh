@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conner dipaolo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on conner dipaolo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Aug 2015 22:05:58 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 09 Aug 2015 22:05:58 -0700</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>
+
+&lt;h3 id=&#34;this-is-a-header:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;This is a Header&lt;/h3&gt;
+
+&lt;p&gt;My name is conner dipaolo.&lt;/p&gt;
+
+&lt;p&gt;```go
+func main() {
+    // most people don&amp;rsquo;t know
+    // about the &amp;lsquo;print&amp;rsquo; builtin
+    print(&amp;ldquo;hello world&amp;rdquo;)
+}&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
