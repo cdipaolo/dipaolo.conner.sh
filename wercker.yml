@@ -10,7 +10,7 @@ build:
                 echo "Finished git submodule init"
 
                 cd $WERCKER_SOURCE_DIR/themes/gindoro
-                git remote set-url https://github.com/cdipaolo/gindoro.git
+                git remote set-url origin https://github.com/cdipaolo/gindoro.git
                 git submodule update
                 echo "Finished git submodule update"
         - arjen/hugo-build:
