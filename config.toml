@@ -1,3 +1,9 @@
 baseurl = "https://cdipaolo.github.io/"
 languageCode = "en-us"
 title = "conner dipaolo"
+
+[params]
+  Description = "build cool shit."
+  Author = "conner dipaolo"
+  GithubUser = "cdipaolo"
+  Email = "cdipaolo96@gmail.com"
