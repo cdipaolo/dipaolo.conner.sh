@@ -7,7 +7,7 @@ build:
         - script:
             name: install git
             code: |
-                sudo yum install git
+                yes | yum install git
 deploy:
     steps:
         - lukevivier/gh-pages@0.2.1:
