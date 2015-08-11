@@ -9,3 +9,4 @@ deploy:
         token: $GIT_TOKEN
         domain: dipaolo.conner.sh
         basedir: public
+        repo: cdipaolo/cdipaolo.github.io
