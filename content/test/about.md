@@ -7,6 +7,26 @@ title = "about"
 
 My name is conner dipaolo.
 
+| hello? | true? | another |
+|--------|:------|:--------|
+| this is| a     | 1234|
+| table  | in    |true|
+|| ascii!||
+
+> this is a block quote. stay hungry, stay foolish bros (and gals!) blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+
+- this is
+- an
+- unordered
+  * list
+
+this is separating text:
+
+1. this
+2. is
+3. ordered
+  * but still useless
+
 ```go
 func main() {
     // most people don't know
@@ -22,6 +42,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 This sentence has <span>\(x^2+y^2=0\)</span> some inline math in it! Wasn't rendered :(
+
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
