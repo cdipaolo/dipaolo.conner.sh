@@ -7,7 +7,12 @@ build:
             name: install theme
             code: |
                 git submodule init
+                echo "Finished git submodule init"
+
+                cd $WERCKER_SOURCE_DIR/themes/gindoro
+                git remote set-url https://github.com/cdipaolo/gindoro.git
                 git submodule update
+                echo "Finished git submodule update"
         - arjen/hugo-build:
             version: "0.14"
             theme: gindoro
