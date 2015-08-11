@@ -6,7 +6,7 @@ build:
             theme: gindoro
 deploy:
     steps:
-        - lukeviver/gh-pages:
+        - lukevivier/gh-pages@0.2.1:
             token: $GIT_TOKEN
             domain: dipaolo.conner.sh
             basedir: public
