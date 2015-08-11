@@ -4,10 +4,10 @@ build:
         - arjen/hugo-build:
             version: "0.14"
             theme: gindoro
-        - install-packages:
-            packages: git
 deploy:
     steps:
+        - install-packages:
+            packages: git
         - lukevivier/gh-pages@0.2.1:
             token: $GIT_TOKEN
             domain: dipaolo.conner.sh
