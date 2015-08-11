@@ -1,13 +1,11 @@
-box: centos:latest
+box: ubuntu:latest
 build:
     steps:
         - arjen/hugo-build:
             version: "0.14"
             theme: gindoro
-        - script:
-            name: install git
-            code: |
-                yes | yum install git
+        - install-packages:
+            packages: git
 deploy:
     steps:
         - lukevivier/gh-pages@0.2.1:
