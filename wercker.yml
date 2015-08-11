@@ -1,4 +1,4 @@
-box: centos@latest
+box: centos:latest
 build:
     steps:
         - arjen/hugo-build:
