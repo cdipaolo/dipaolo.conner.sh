@@ -1,2 +1,2 @@
 #### Personal Site
-[![wercker status](https://app.wercker.com/status/e3336575348efe8abe8ea85565b3913e/m/master "wercker status")](https://app.wercker.com/project/bykey/e3336575348efe8abe8ea85565b3913e)
+[![wercker status](https://app.wercker.com/status/ee2cfc670a0a5d3836deb2a248459771/m "wercker status")](https://app.wercker.com/project/bykey/ee2cfc670a0a5d3836deb2a248459771)
