@@ -1,8 +1,6 @@
 +++
 date = "2015-08-09T22:05:58-07:00"
-draft = true
 title = "about"
-
 +++
 
 ### This is a Header
