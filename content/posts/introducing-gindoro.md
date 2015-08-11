@@ -6,7 +6,7 @@ title = "introducing gindoro, a clean, minimal hugo theme"
 
 gindoro means poplar in Japanese.
 
-Gindoro is the theme running this site. It's a hugo theme, [found here (by the way, mouse over these links!)](https://github.com/cdipaolo/gindoro), and it does some cool things.
+Gindoro is the theme running this site. It's a hugo theme, [found here (by the way, mouse over these links!)](https://github.com/cdipaolo/gindoro), and it does some cool things. It's only 5449 bytes at the time of this writing.
 
 We don't have syntax highlighting (to improve render times) but you'll still probably like the curreny format (I hope!)
 
