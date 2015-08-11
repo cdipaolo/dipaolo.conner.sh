@@ -1,6 +1,8 @@
 box: ubuntu:latest
 build:
     steps:
+        - install-packages:
+            packages: git
         - script:
             name: install theme
             code: |
