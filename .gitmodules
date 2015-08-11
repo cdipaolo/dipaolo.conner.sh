@@ -1,0 +1,3 @@
+[submodule "themes/gindoro"]
+	path = themes/gindoro
+	url = git@github.com:cdipaolo/gindoro.git
