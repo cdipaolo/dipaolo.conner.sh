@@ -42,7 +42,7 @@ but what about blockquotes????
 
 _italics_ and **bold text** also work, as per usual!
 
-The font being used is Roboto Slab. By the way, did you notice how fast this rendered? The entire theme is only 36K and math support is using KaTeX (faster than MathJax) being brought in from a CDN.
+The font being used is Roboto Slab. By the way, did you notice how fast this rendered? The entire theme is only 5449 bytes and math support is using KaTeX (faster than MathJax) being brought in from a CDN.
 
 You must be wondering about images, right about now. This image is large (I didn't feel like cropping it and self-hosting) so it probably took a little time to load:
 
