@@ -1,6 +1,6 @@
 +++
 date = "2015-08-11T15:53:51-07:00"
-title = "unit testing postgres functions in Golang"
+title = "quick and efficiently unit testing Postgres interfaces in Go for better scalability"
 
 +++
 
