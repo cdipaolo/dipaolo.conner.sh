@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conner dipaolo</title>
+    <link>http://dipaolo.conner.sh/</link>
+    <description>Recent content on conner dipaolo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Aug 2015 15:53:56 -0700</lastBuildDate>
+    <atom:link href="http://dipaolo.conner.sh/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>introducing gindoro, a clean, minimal hugo theme</title>
+      <link>http://dipaolo.conner.sh/posts/introducing-gindoro/</link>
+      <pubDate>Tue, 11 Aug 2015 15:53:56 -0700</pubDate>
+      
+      <guid>http://dipaolo.conner.sh/posts/introducing-gindoro/</guid>
+      <description>&lt;p&gt;gindoro means poplar in Japanese.&lt;/p&gt;
+
+&lt;p&gt;Gindoro is the theme running this site. It&amp;rsquo;s a hugo theme, &lt;a href=&#34;https://github.com/cdipaolo/gindoro&#34;&gt;found here (by the way, mouse over these links!)&lt;/a&gt;, and it does some cool things. It&amp;rsquo;s only 5449 bytes at the time of this writing.&lt;/p&gt;
+
+&lt;p&gt;We don&amp;rsquo;t have syntax highlighting (to improve render times) but you&amp;rsquo;ll still probably like the curreny format (I hope!)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;// long lines will cause the block to be scrollable. This is preferable to wrapping lines because you wouldn&#39;t be able to tell when it happened!
+func main() {
+    // most people don&#39;t know
+    // about the print() builtin
+    print(&amp;quot;hello, github!&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Math support:&lt;/p&gt;
+
+&lt;div&gt;
+    \[ \int{\sin^2{x}dx = \frac{1}{2}\int{\left(1 - \cos{\left(2x\right)}\right)dx}} \]
+    \[ = \frac{1}{2}\left( x - \frac{1}{2}\sin{\left(2x\right)} \right) \]
+&lt;/div&gt;
+
+&lt;p&gt;That&amp;rsquo;s cool. Here&amp;rsquo;s some general markdown tools:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;I&lt;/th&gt;
+&lt;th&gt;am&lt;/th&gt;
+&lt;th&gt;a&lt;/th&gt;
+&lt;th&gt;table of variable length&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;that&lt;/td&gt;
+&lt;td&gt;is&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;but&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;you&lt;/td&gt;
+&lt;td&gt;have revealed yourself too early&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;notice&lt;/td&gt;
+&lt;td&gt;the&lt;/td&gt;
+&lt;td&gt;light&lt;/td&gt;
+&lt;td&gt;gray lines dividing content!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;but what about blockquotes????&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;that&amp;rsquo;s a good question. They are simple, but so am I.
+they can also have multiple lines in the markdown and
+it will auto-group the text when markdown renders&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;italics&lt;/em&gt; and &lt;strong&gt;bold text&lt;/strong&gt; also work, as per usual!&lt;/p&gt;
+
+&lt;p&gt;The font being used is Roboto Slab. By the way, did you notice how fast this rendered? The entire theme is only 5449 bytes and math support is using KaTeX (faster than MathJax) being brought in from a CDN.&lt;/p&gt;
+
+&lt;p&gt;You must be wondering about images, right about now. This image is large (I didn&amp;rsquo;t feel like cropping it and self-hosting) so it probably took a little time to load:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1433354359170-23a4ae7338c6?q=80&amp;amp;fm=jpg&amp;amp;s=ae9f141fc85e050f6d68d1654c554236&#34; alt=&#34;good question&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;pretty clean, right?!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;this is an&lt;/li&gt;
+&lt;li&gt;unordered
+
+&lt;ul&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;it uses the square bullet to look cleaner&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You need to divide lists or markdown won&amp;rsquo;t know what you were trying to do!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;This is an ordered list&lt;/li&gt;
+&lt;li&gt;it uses &lt;a href=&#34;https://en.wikipedia.org/wiki/Hiragana&#34;&gt;Hiragana (Japanese syllabic characters)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;as it&amp;rsquo;s numbering (staring with ah, eee, ooo, A, oh in english pronounciation)&lt;/li&gt;
+&lt;li&gt;(this is the &amp;lsquo;ay&amp;rsquo; pronounciation)
+
+&lt;ul&gt;
+&lt;li&gt;nobody needs those stupid numbers anyways&lt;/li&gt;
+&lt;li&gt;and this is pretty sweet&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I hope you agree!&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>quick and efficiently unit testing Postgres interfaces in Go for better scalability</title>
+      <link>http://dipaolo.conner.sh/posts/testing-postgres/</link>
+      <pubDate>Tue, 11 Aug 2015 15:53:51 -0700</pubDate>
+      
+      <guid>http://dipaolo.conner.sh/posts/testing-postgres/</guid>
+      <description>
+
+&lt;p&gt;Writing tests isn&amp;rsquo;t always fun. Having your backend break when you change something three functions deep is less fun. Most of the time the Go compiler will fix mistakes for you, but what about when you a parameter to a &lt;code&gt;SELECT this, and, that FROM table&lt;/code&gt; query in Postgres? Variadic arguments aren&amp;rsquo;t checked at compile time, and integration tests won&amp;rsquo;t help with isolate functions at the bottom level. That&amp;rsquo;s why writing testable code is always better than it&amp;rsquo;s more &amp;lsquo;agile&amp;rsquo; counterpart.&lt;/p&gt;
+
+&lt;p&gt;This post will walk you through writing data access layer functions that are testable, tested, and easy to extend. Let&amp;rsquo;s begin&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started:8f952b2d3dffdf29e7d3847baf2c50df&#34;&gt;getting started&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;re going to assume our database has a schema called &amp;lsquo;test&amp;rsquo; with a table called &amp;lsquo;users&amp;rsquo; with two fields, a Primary Key serial as &amp;lsquo;user_id&amp;rsquo; and a username (called such) as text.&lt;/p&gt;
+
+&lt;p&gt;Say we have a simple program that interfaces with a postgres database, upon running it inserts a new customer, then selects all customers and prints them to STDOUT. We&amp;rsquo;re going to keep this all in one file, because this is a simple program. In most cases when working with databases in Go, you&amp;rsquo;ll have a global &lt;code&gt;*sql.DB&lt;/code&gt; struct that you&amp;rsquo;ll query from. Let&amp;rsquo;s write the functionality first using that methodology:&lt;/p&gt;
+
+&lt;p&gt;This is main.go.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;database/sql&amp;quot;
+    &amp;quot;fmt&amp;quot;
+    &amp;quot;os&amp;quot; // we&#39;re going to be storing our PG URL
+         // as an environment variable
+
+    _ &amp;quot;github.com/lib/pq&amp;quot; // need to import database driver
+)
+
+var globalDB = PostgresDBFactory()
+
+// PostgresDBFactory connects to the postgres
+// DB using an env var for the URL and returns
+// the connected *sql.DB
+func PostgresDBFactory() *sql.DB {
+    PostgresURL := os.GetEnv(&amp;quot;PG_URL&amp;quot;)
+
+    db, err := sql.Open(&amp;quot;postgres&amp;quot;, PostgresURL)
+    if err != nil {
+        panic(fmt.Sprintf(&amp;quot;ERROR: error connecting to postgres database!\n\t%v\n&amp;quot;, err))
+    }
+
+    // ping database to make sure everything&#39;s good
+    err = db.Ping()
+    if err != nil {
+        panic(fmt.Sprintf(&amp;quot;ERROR: error pinging postgres database postgres database!\n\t%v\n&amp;quot;, err))
+    }
+
+    // now we&#39;re all good. Return DB
+    return db
+}
+
+// now let&#39;s declare what a user _is_.
+
+// User holds just a UserID and
+// it&#39;s corresponding Username
+type User struct {
+    UserID   int64  `json:&amp;quot;user_id,omitempty&amp;quot;`
+    Username string `json:&amp;quot;username,omitempty&amp;quot;`
+}
+
+// now we&#39;re going to define functions about how to add and get users
+
+// GetUsers gets all users from the database
+// and returns them as a slice
+func GetUsers() ([]*User, error) {
+    // query database
+    rows, err := globalDB.Query(&amp;quot;SELECT user_id, username FROM test.users&amp;quot;)
+    if err != nil {
+        return nil, err
+    }
+
+    var users []*User
+    for rows.Next() {
+        user := &amp;amp;User{}
+        err = rows.Scan(&amp;amp;user.UserID, &amp;amp;user.Username)
+        if err != nil {
+            return nil, err
+        }
+        users = append(user, users)
+    }
+
+    if err = rows.Err(); err != nil {
+        return nil, err
+    }
+
+    return users
+}
+
+// InsertUser inserts a user into the database
+// having a username as given
+func InsertUser(username string) error {
+    _, err := globalDB.Exec(&amp;quot;INSERT INTO test.users (username) VALUES ($1)&amp;quot;, username)
+    return err
+}
+
+// now let&#39;s define our program
+func main() {
+    // give the user a username of the current time
+    err := InsertUser(fmt.Sprintf(&amp;quot;%v&amp;quot;, time.Now().UTC()))
+    if err != nil {
+        panic(err.Error())
+    }
+
+    // return all users
+    users, err := GetUsers()
+    if err != nil {
+        panic(err.Error())
+    }
+
+    fmt.Printf(&amp;quot;Users:\n\t%v\n&amp;quot;, users)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;the-problem:8f952b2d3dffdf29e7d3847baf2c50df&#34;&gt;the problem&lt;/h2&gt;
+
+&lt;p&gt;Ok that&amp;rsquo;s great, but how do we test it? Conventional wisdom would say to run a database while you&amp;rsquo;re testing, and query against that database for expected output after the program runs. That&amp;rsquo;s great, but now you have to run a database at the same time. Note that you should end up doing that as well, but use unit tests to provide quick checks of your code.&lt;/p&gt;
+
+&lt;p&gt;But back to our little problem – traditional mocking sucks. And especially in Go. We want to test how our code behaves to different outputs by the database without the overhead of running a databaseseparately and querying it. This is where &lt;a href=&#34;https://github.com/DATA-DOG/go-sqlmock&#34;&gt;&lt;code&gt;github.com/DATA-DOG/go-sqlmock&lt;/code&gt;&lt;/a&gt; comes in. It lets you create mock database which expect queries and return expected results to those queries. Find and dandy, but how are we going to load that into our functions!? We could redefine the global database, but then we would be dependent on the order tests are being run and then we wouldn&amp;rsquo;t be able to test in parallel!&lt;/p&gt;
+
+&lt;p&gt;Luckily we have a simple fix. Add in a database parameter to all the functions which, if nil, will just set to the global database. This is a simple fix that will let you take advantage of easy testing and allow for easy integration with Master-Slave schemes down the line (this application will get &lt;em&gt;that&lt;/em&gt; much traffic!)&lt;/p&gt;
+
+&lt;h2 id=&#34;the-fix:8f952b2d3dffdf29e7d3847baf2c50df&#34;&gt;the fix&lt;/h2&gt;
+
+&lt;p&gt;So let&amp;rsquo;s integrate those changes into our application!&lt;/p&gt;
+
+&lt;p&gt;Replace the following functions:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func GetUsers(db *sql.DB) ([]*User, error) {
+    if db == nil {
+        db = globalDB
+    }
+
+    // query database
+    rows, err := db.Query(&amp;quot;SELECT user_id, username FROM test.users&amp;quot;)
+    if err != nil {
+        return nil, err
+    }
+
+    var users []*User
+    for rows.Next() {
+        user := &amp;amp;User{}
+        err = rows.Scan(&amp;amp;user.UserID, &amp;amp;user.Username)
+        if err != nil {
+            return nil, err
+        }
+        users = append(user, users)
+    }
+
+    if err = rows.Err(); err != nil {
+        return nil, err
+    }
+
+    return users
+}
+
+func InsertUser(username string, db *sql.DB) error {
+    if db == nil {
+        db = globalDB
+    }
+
+    _, err := globalDB.Exec(&amp;quot;INSERT INTO test.users (username) VALUES ($1)&amp;quot;, username)
+    return err
+}
+
+// now we have to call differently from main()
+func main() {
+    // give the user a username of the current time
+    err := InsertUser(fmt.Sprintf(&amp;quot;%v&amp;quot;, time.Now().UTC()), nil)
+    if err != nil {
+        panic(err.Error())
+    }
+
+    // return all users
+    users, err := GetUsers(nil)
+    if err != nil {
+        panic(err.Error())
+    }
+
+    fmt.Printf(&amp;quot;Users:\n\t%v\n&amp;quot;, users)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it only 10 lines changed!&lt;/p&gt;
+
+&lt;h2 id=&#34;testing-postgres-effectively:8f952b2d3dffdf29e7d3847baf2c50df&#34;&gt;testing postgres effectively&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s write comprehensive tests for just one of our two handlers, &lt;code&gt;GetUsers(db)&lt;/code&gt; (it&amp;rsquo;s more intricate.) Testing &lt;code&gt;InsertUser(username, db)&lt;/code&gt; is the same, except instead of &lt;code&gt;ExpectQuery&lt;/code&gt; you would use &lt;code&gt;ExpectExec&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll be using &lt;a href=&#34;https://github.com/stretchr/testify&#34;&gt;github.com/stretchr/testify&lt;/a&gt; because it&amp;rsquo;ll clean things up, but any testing package will work (or just go in raw!)&lt;/p&gt;
+
+&lt;p&gt;This is unit_test.go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;testing&amp;quot;
+    &amp;quot;fmt&amp;quot;
+
+    sqlmock &amp;quot;github.com/DATA-DOG/go-sqlmock&amp;quot;
+    &amp;quot;github.com/stretchr/testify/assert&amp;quot;
+    &amp;quot;github.com/stretchr/testify/require&amp;quot;
+)
+
+var userCols = []string{&amp;quot;user_id&amp;quot;, &amp;quot;username&amp;quot;}
+
+func TestGetUsersShouldPass1(t *testing.T) {
+    db, err := sqlmock.New()
+    assert.Nil(t, err, &amp;quot;opening database connection should work&amp;quot;)
+    require.NotNil(t, db, &amp;quot;mock database should not be nil&amp;quot;)
+
+    // declare expected queries
+    sqlmock.ExpectQuery(&amp;quot;SELECT (.+) FROM test.users&amp;quot;).WillReturnRows(sqlmock.NewRows(userCols).FromCSVString(&amp;quot;10, username_here\n11, another_user&amp;quot;))
+
+    users, err := GetUsers(db)
+    assert.Nil(t, err, &amp;quot;postgres error should be nil&amp;quot;)
+
+    // test content of returned values
+    require.Equal(t, 2, len(users), &amp;quot;users array should not be nil&amp;quot;)
+    
+    // test first user
+    assert.Equal(t, int64(10), users[0].UserID, &amp;quot;user_id should match&amp;quot;)
+    assert.Equal(t, &amp;quot;username_here&amp;quot;, users[0].Username, &amp;quot;username should match&amp;quot;)
+
+    // test second user
+    assert.Equal(t, int64(11), users[1].UserID, &amp;quot;user_id should match&amp;quot;)
+    assert.Equal(t, &amp;quot;another_user&amp;quot;, users[1].Username, &amp;quot;username should match&amp;quot;)
+}
+
+func TestGetUsersShouldPass2(t *testing.T) {
+    db, err := sqlmock.New()
+    assert.Nil(t, err, &amp;quot;opening database connection should work&amp;quot;)
+    require.NotNil(t, db, &amp;quot;mock database should not be nil&amp;quot;)
+
+    // declare expected queries
+    sqlmock.ExpectQuery(&amp;quot;SELECT (.+) FROM test.users&amp;quot;).WillReturnRows(sqlmock.NewRows(userCols).FromCSVString(&amp;quot;&amp;quot;))
+
+    users, err := GetUsers(db)
+    assert.Nil(t, err, &amp;quot;postgres error should be nil&amp;quot;)
+    assert.Equal(t, 0, len(users), &amp;quot;users array should be nil&amp;quot;)
+}
+
+func TestGetUsersShouldFail1(t *testing.T) {
+    db, err := sqlmock.New()
+    assert.Nil(t, err, &amp;quot;opening database connection should work&amp;quot;)
+    require.NotNil(t, db, &amp;quot;mock database should not be nil&amp;quot;)
+
+    // declare expected queries
+    sqlmock.ExpectQuery(&amp;quot;SELECT (.+) FROM test.users&amp;quot;).WillReturnRows(sqlmock.NewRows(userCols).FromCSVString(&amp;quot;SCAN ERROR, username_here&amp;quot;))
+
+    users, err := GetUsers(db)
+    assert.NotNil(t, err, &amp;quot;postgres error should not be nil&amp;quot;)
+    assert.Equal(t, 0, len(users), &amp;quot;users array should be nil&amp;quot;)
+}
+
+func TestGetUsersShouldFail2(t *testing.T) {
+    db, err := sqlmock.New()
+    assert.Nil(t, err, &amp;quot;opening database connection should work&amp;quot;)
+    require.NotNil(t, db, &amp;quot;mock database should not be nil&amp;quot;)
+
+    // declare expected queries
+    sqlmock.ExpectQuery(&amp;quot;SELECT (.+) FROM test.users&amp;quot;).WillReturnError(fmt.Errorf(&amp;quot;Query Error&amp;quot;))
+    users, err := GetUsers(db)
+    assert.NotNil(t, err, &amp;quot;postgres error should not be nil&amp;quot;)
+    assert.Equal(t, 0, len(users), &amp;quot;users array should be nil&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;conclusion:8f952b2d3dffdf29e7d3847baf2c50df&#34;&gt;conclusion&lt;/h2&gt;
+
+&lt;p&gt;And there we have it! Really good test coverage (I don&amp;rsquo;t think you even &lt;em&gt;can&lt;/em&gt; test that last little &amp;lsquo;if not nil&amp;rsquo; error check for multi-row selects in Go). That runs &lt;strong&gt;really&lt;/strong&gt;, &lt;strong&gt;really&lt;/strong&gt; fast. Going through tests of the entire backend I&amp;rsquo;ve been working on takes only about 10-15s for unit tests, and 100+s for integration tests. This won&amp;rsquo;t make sure your queries &lt;em&gt;work&lt;/em&gt;, but it will let you know what your function is handling things well internally, before opening up dependency hell.&lt;/p&gt;
+
+&lt;p&gt;As briefly mentioned before, if you want to run multiple databases in a Master-Slave scenario (where only the Read DB takes computation-heavy queries) then this setup lets you scale to that extremely easily by just connecting to multiple databases!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

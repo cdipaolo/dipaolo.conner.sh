@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+
+        
+
+        <base href="http://dipaolo.conner.sh">
+        <title>conner dipaolo</title>
+        <link rel="canonical" href="http://dipaolo.conner.sh/posts/introducing-gindoro/">
+        <link href="" rel="alternate" type="application/rss+xml" title="conner dipaolo"/>
+
+        
+<link rel="stylesheet" href="css/styles.css">
+
+
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/contrib/auto-render.min.js"></script>
+
+    </head>
+    <body>
+        <div class="column">
+
+<header class="header">
+    <a href="/" class="title">conner dipaolo</a>
+    <p>build cool shit.</p>
+</header>
+
+
+<section id="main">
+    <header class="post-header">
+      <p class="post-title"><a href="http://dipaolo.conner.sh/posts/introducing-gindoro/">introducing gindoro, a clean, minimal hugo theme </a></p>
+      <p class="post-meta">jan 11 2015 - 2 min </p>
+    </header>
+    <article itemprop="articleBody" id="content">
+       <p>gindoro means poplar in Japanese.</p>
+
+<p>Gindoro is the theme running this site. It&rsquo;s a hugo theme, <a href="https://github.com/cdipaolo/gindoro">found here (by the way, mouse over these links!)</a>, and it does some cool things. It&rsquo;s only 5449 bytes at the time of this writing.</p>
+
+<p>We don&rsquo;t have syntax highlighting (to improve render times) but you&rsquo;ll still probably like the curreny format (I hope!)</p>
+
+<pre><code class="language-go">// long lines will cause the block to be scrollable. This is preferable to wrapping lines because you wouldn't be able to tell when it happened!
+func main() {
+    // most people don't know
+    // about the print() builtin
+    print(&quot;hello, github!&quot;)
+}
+</code></pre>
+
+<p>Math support:</p>
+
+<div>
+    \[ \int{\sin^2{x}dx = \frac{1}{2}\int{\left(1 - \cos{\left(2x\right)}\right)dx}} \]
+    \[ = \frac{1}{2}\left( x - \frac{1}{2}\sin{\left(2x\right)} \right) \]
+</div>
+
+<p>That&rsquo;s cool. Here&rsquo;s some general markdown tools:</p>
+
+<table>
+<thead>
+<tr>
+<th>I</th>
+<th>am</th>
+<th>a</th>
+<th>table of variable length</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>that</td>
+<td>is</td>
+<td>true</td>
+<td></td>
+</tr>
+
+<tr>
+<td>but</td>
+<td></td>
+<td>you</td>
+<td>have revealed yourself too early</td>
+</tr>
+
+<tr>
+<td>notice</td>
+<td>the</td>
+<td>light</td>
+<td>gray lines dividing content!</td>
+</tr>
+</tbody>
+</table>
+
+<p>but what about blockquotes????</p>
+
+<blockquote>
+<p>that&rsquo;s a good question. They are simple, but so am I.
+they can also have multiple lines in the markdown and
+it will auto-group the text when markdown renders</p>
+</blockquote>
+
+<p><em>italics</em> and <strong>bold text</strong> also work, as per usual!</p>
+
+<p>The font being used is Roboto Slab. By the way, did you notice how fast this rendered? The entire theme is only 5449 bytes and math support is using KaTeX (faster than MathJax) being brought in from a CDN.</p>
+
+<p>You must be wondering about images, right about now. This image is large (I didn&rsquo;t feel like cropping it and self-hosting) so it probably took a little time to load:</p>
+
+<p><img src="https://images.unsplash.com/photo-1433354359170-23a4ae7338c6?q=80&amp;fm=jpg&amp;s=ae9f141fc85e050f6d68d1654c554236" alt="good question" />
+</p>
+
+<p>pretty clean, right?!</p>
+
+<ul>
+<li>this is an</li>
+<li>unordered
+
+<ul>
+<li>list</li>
+<li>it uses the square bullet to look cleaner</li>
+</ul></li>
+</ul>
+
+<p>You need to divide lists or markdown won&rsquo;t know what you were trying to do!</p>
+
+<ol>
+<li>This is an ordered list</li>
+<li>it uses <a href="https://en.wikipedia.org/wiki/Hiragana">Hiragana (Japanese syllabic characters)</a></li>
+<li>as it&rsquo;s numbering (staring with ah, eee, ooo, A, oh in english pronounciation)</li>
+<li>(this is the &lsquo;ay&rsquo; pronounciation)
+
+<ul>
+<li>nobody needs those stupid numbers anyways</li>
+<li>and this is pretty sweet</li>
+</ul></li>
+<li>I hope you agree!</li>
+</ol>
+
+    </article>
+</section>
+
+<footer class="bottom-footer">
+  <div class="copyright">
+    <p>
+    &copy; conner dipaolo.
+    <a href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution">Some rights reserved</a>; 
+    please attribute properly and link back.
+    <a href="mailto:cdipaolo96@gmail.com">contact.</a>
+    <a href="https://github.com/cdipaolo">github.</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+    renderMathInElement(document.getElementById('main'));
+</script>
+
+</div>
+</body>
+</html>
+
