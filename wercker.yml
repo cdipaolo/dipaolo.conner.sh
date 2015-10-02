@@ -2,6 +2,14 @@ box: ubuntu:latest
 build:
     steps:
         - script:
+            name: install git
+            code: |
+                apt-get update
+
+                echo "\n\nUPDATED APT-GET"
+
+                apt-get install git -y
+        - script:
             name: install theme
             code: |
                 git submodule init
