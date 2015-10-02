@@ -2,12 +2,6 @@ box: ubuntu:latest
 build:
     steps:
         - script:
-            name: apt-get update
-            code: |
-                apt-get update
-        - install-packages:
-            packages: git
-        - script:
             name: install theme
             code: |
                 git submodule init
