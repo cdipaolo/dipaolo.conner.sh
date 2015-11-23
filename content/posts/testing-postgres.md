@@ -161,7 +161,7 @@ func InsertUser(username string, db *sql.DB) error {
         db = globalDB
     }
 
-    _, err := globalDB.Exec("INSERT INTO test.users (username) VALUES ($1)", username)
+    _, err := db.Exec("INSERT INTO test.users (username) VALUES ($1)", username)
     return err
 }
 
